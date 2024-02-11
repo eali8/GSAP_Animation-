@@ -1,0 +1,32 @@
+
+ body{
+    background-color: rgb(5, 3, 3); 
+} 
+
+header{
+    display: grid; 
+    place-content: center; 
+    height: 100vh; 
+}
+
+h1{
+    font-size: 7rem; 
+    text-transform: uppercase; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: goldenrod;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 5.9rem;
+}
+
+h2{
+    font-size: 3rem; 
+    color:darkgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.char{
+    transform: translateY(115px); 
+    transition: transform .7s; 
+}
